@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7706" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="1242x2208.png" translatesAutoresizingMaskIntoConstraints="NO" id="e7Q-5y-SaP">
+                    <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                </imageView>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="e7Q-5y-SaP" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="ch8-Ok-QVD"/>
+                <constraint firstAttribute="bottom" secondItem="e7Q-5y-SaP" secondAttribute="bottom" id="ldD-sm-nwN"/>
+                <constraint firstItem="e7Q-5y-SaP" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="sO2-XY-VIn"/>
+                <constraint firstAttribute="trailing" secondItem="e7Q-5y-SaP" secondAttribute="trailing" id="tO7-iX-VXd"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <simulatedScreenMetrics key="simulatedDestinationMetrics" type="iPad"/>
+            <point key="canvasLocation" x="600" y="506.5"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="1242x2208.png" width="1242" height="2208"/>
+    </resources>
+</document>
